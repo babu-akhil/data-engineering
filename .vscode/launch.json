@@ -1,0 +1,18 @@
+{
+    "configurations": [
+        {
+            "name": "Python Debugger: Python File",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${file}",
+            "justMyCode": false
+        },
+        {
+            "name": "Python: Debug Module",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "soccerdata.understat",
+            "console": "integratedTerminal"
+        }
+    ]
+}
